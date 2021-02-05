@@ -1,0 +1,102 @@
+element.style {
+
+}
+
+@media (max-width: 800px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 400px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 300px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #f7f7fc
+}
+
+body {
+    display: block;
+    margin: 10px;
+}
+
+h1 {
+    color: #541218;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+  }
+
+h2, h3, h4 {
+    color: #525252;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #1B9EC5;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+img {
+   height: auto;
+   width: auto;
+   max-width: 100%;
+   max-height: 100%;
+}
+
+i {
+ font-size: 50px;
+}
+
+h3 {
+  margin: 30px 30px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.card-white {
+    background-color: white;
+    padding: 50px;
+    box-shadow: 0px 10px 40px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    margin: 30px 300px;
+    text-align: center;
+}
+
+.btn-blue {
+    background-color: #1B9EC5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container {
+  margin: 0 auto;
+}
